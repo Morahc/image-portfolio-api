@@ -22,5 +22,3 @@ app.use(fileUpload())
 const route = require('./routes/api/index')
 
 app.use(route)
-
-// app.listen(process.env.PORT, console.log("server running"))
